@@ -1,0 +1,34 @@
+{
+  "users" : {
+    "table" : "users",
+	"restrictedFields" : ["password","hash"],
+	"accessLevel" : ["customer","admin"]
+  },
+  "profile" : {
+    "table" : "profile" ,
+    "fk" : "userId",
+	"restrictedFields" : [],
+	"accessLevel" : ["customer","admin"]
+  },
+  "notes" : {
+    "table" : "notes" ,
+	"restrictedFields" : [],
+  "fk" : "",
+	"accessLevel" : ["customer","admin"]
+  },
+  "package" : {
+    "table" : "package" ,
+	"restrictedFields" : [],
+  "fk" : "",
+
+	"accessLevel" : ["customer","admin"]
+  },
+  "remainder" : {
+    "table" : "remainder" ,
+	"restrictedFields" : [],
+  "fk" : "",
+
+	"accessLevel" : ["customer","admin"]
+  }
+  
+}

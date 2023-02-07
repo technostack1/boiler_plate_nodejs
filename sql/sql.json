@@ -1,0 +1,27 @@
+{
+	"provider": {
+		"getAll": "SELECT * FROM provider WHERE deleted = 0 OR deleted IS NULL",
+		"getSingle": "SELECT * FROM provider WHERE (deleted = 0 OR deleted IS NULL) AND id = ",
+		"delete" : "Update provider set deleted = 1 WHERE id = "
+	},
+	"stack": {
+		"getAll": "SELECT * from stack where deleted = 0 OR deleted IS NULL",
+		"getSingle": "SELECT * FROM stack WHERE (deleted = 0 OR deleted IS NULL) AND id = ",
+		"delete" : "Update stack set deleted = 1 WHERE id = "
+
+	},
+	"uiItem": {
+		"getAll": "SELECT * from uiItem where deleted = 0 OR deleted IS NULL",
+		"getSingle": "SELECT * FROM uiItem WHERE (deleted = 0 OR deleted IS NULL) AND id = ",
+		"delete" : "Update uiItem set deleted = 1 WHERE id = "
+
+	},
+	"stakeholder": {
+		"getAll": "SELECT * from stakeholder where deleted = 0 OR deleted IS NULL",
+		"getSingle": "SELECT * FROM stakeholder WHERE (deleted = 0 OR deleted IS NULL) AND id = ",
+		"delete" : "Update stakeholder set deleted = 1 WHERE id = "
+
+	}
+
+
+}

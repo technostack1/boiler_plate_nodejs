@@ -1,0 +1,19 @@
+# Node build artifacts
+node_modules
+npm-debug.log
+./config/environment
+
+# Local development
+env.js
+*.env
+*.dev
+.DS_Store
+
+# Docker
+docker-compose.yml
+.idea
+
+# editor setting
+.vscode
+
+#public/*
